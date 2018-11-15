@@ -5,8 +5,8 @@
 function hello() {
 
   // WRITE YOUR EXERCISE 1 CODE HERE
-var div = document.getElementById("output1");
-div.innnerHTML = "Hello, AP Computer Science Principles!";
+let div = document.getElementById("output1");
+div.innerHTML = "Hello, AP Computer Science Principles!";
   ////////////////// DO NOT MODIFY
   check("hello"); // DO NOT MODIFY
   ////////////////// DO NOT MODIFY
@@ -22,13 +22,13 @@ function helloAgain() {
   let name; // DO NOT MODIFY
   //////////// DO NOT MODIFY
 
-  // Use the name variable declared above to store the user's response. You
+  // Use the name letiable declared above to store the user's response. You
   // do not need to re-declare it, only assign it a value.
 
   // WRITE YOUR EXERCISE 2 CODE HERE
-  var answer = prompt("Please Enter Your Name");
-  alert("Hello, " + answer + "!");
-
+  name = prompt("Please Enter Your Name");
+  let div2 = document.getElementById("output2");
+  div2.innerHTML = "Hello, "+ name + "!";
   ///////////////////////////// DO NOT MODIFY
   check("helloAgain", name); // DO NOT MODIFY
   ///////////////////////////// DO NOT MODIFY
@@ -48,7 +48,7 @@ function celsius() {
   // (inclusive), and rounds this value to 2 decimal places.
 
   // WRITE YOUR EXERCISE 3 CODE HERE
-
+  let = 
   ////////////////////////// DO NOT MODIFY
   check("celsius", cels); // DO NOT MODIFY
   ////////////////////////// DO NOT MODIFY
